@@ -1,0 +1,10 @@
+.navigation-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100vh;
+  padding: 8px 8px 0;
+  background-color: var(--bg-700);
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}

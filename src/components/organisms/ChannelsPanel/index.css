@@ -1,0 +1,12 @@
+.channels-panel {
+  width: 250px;
+  align-self: stretch;
+  background-color: var(--bg-500);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.channels-panel::-webkit-scrollbar {
+  display: none;
+}

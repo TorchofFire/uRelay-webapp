@@ -1,0 +1,17 @@
+.server-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.server-list::-webkit-scrollbar {
+  display: none;
+}
+
+.server-list .nav-icon:last-child {
+  margin-bottom: 8px;
+}

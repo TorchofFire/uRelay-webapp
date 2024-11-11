@@ -1,0 +1,9 @@
+.panel-header {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 4px;
+  box-sizing: border-box;
+  background-color: var(--bg-700);
+}
