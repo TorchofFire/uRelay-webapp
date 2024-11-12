@@ -7,7 +7,6 @@ const AutoResizingTextarea = () => {
     const autoResize = () => {
         const textarea = textareaRef.current;
         if (!textarea) return;
-        textarea.style.height = 'auto';
         const padding = parseInt(window.getComputedStyle(textarea).paddingTop) + parseInt(window.getComputedStyle(textarea).paddingBottom);
         textarea.style.height = `${textarea.scrollHeight - padding}px`;
     };
