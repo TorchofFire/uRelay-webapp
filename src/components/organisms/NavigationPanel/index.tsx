@@ -1,14 +1,23 @@
-import Break from '../../atoms/Break';
-import FixedNav from '../../molecules/FixedNav';
-import ServerList from '../../molecules/ServerList';
+import NavIcon from '../../atoms/NavIcon';
 import './index.css';
 
 const NavigationPanel = () => {
     return (
         <div className='navigation-panel'>
-            <FixedNav></FixedNav>
-            <Break></Break>
-            <ServerList></ServerList>
+            <div className='fixed-nav'>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+            </div>
+            <div id='nav-break'></div>
+            <div className='server-list'>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+                <NavIcon></NavIcon>
+            </div>
         </div>
     );
 };
