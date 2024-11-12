@@ -17,8 +17,6 @@ export async function websocketInitialize(): Promise<void> {
         await profileService.createNewProfile(name);
     }
     const secure = false;
-    // TODO: Get rid of all this nonsense^ when you make a real profile selector
-
     const serverAddress = 'localhost:8080';
     const fullAddress = `ws${secure ? 's' : ''}://${serverAddress}`;
 
