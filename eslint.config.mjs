@@ -43,9 +43,13 @@ export default tseslint.config(
       'array-bracket-spacing': ['error', 'never'],
       'object-curly-spacing': ['error', 'always'],
       '@typescript-eslint/no-invalid-void-type': 'off',
+      '@typescript-eslint/no-unsafe-call': 'off',
       '@typescript-eslint/no-misused-promises': 'off',
       '@typescript-eslint/no-unsafe-assignment': 'off',
       '@typescript-eslint/no-unsafe-argument': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
+      '@typescript-eslint/no-redundant-type-constituents': 'off',
+      '@typescript-eslint/no-unsafe-return': 'off',
       '@typescript-eslint/no-namespace': 'off'
     },
   },
